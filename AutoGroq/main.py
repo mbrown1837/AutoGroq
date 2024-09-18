@@ -16,10 +16,8 @@ from utils.ui_utils import (
 )
 
 st.set_page_config(
-    page_title="AutoGroq",
-    layout="wide",
-    initial_sidebar_state="collapsed"
-
+    page_title="AutoGroq"
+)
 def main():
     setup_logging()
     if 'warning_placeholder' not in st.session_state:
