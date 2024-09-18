@@ -15,6 +15,10 @@ from utils.ui_utils import (
     set_temperature, show_interfaces
 )
 
+st.set_page_config(
+    page_title="AutoGroq",
+    layout="wide",
+    initial_sidebar_state="collapsed"
 
 def main():
     setup_logging()
